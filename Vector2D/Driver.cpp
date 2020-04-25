@@ -2,11 +2,26 @@
 //
 
 #include <iostream>
+#include<string>
 #include"Vector2D.h"
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	Vector2D<int> test;
+	/*Vector2D<int> test2(4, 0);
+	Vector2D<int> test3(0, 4);
+	Vector2D<int> test4(2, 2);
+    std::cout << test.size() << " " << test2.size() << " " << test3.size() << " " << test4.size();*/
+
+	/*try
+	{
+		std::cout << test.at(1, 5);
+	}
+	catch (const std::out_of_range& msg)
+	{
+		std::cerr << msg.what() << "\n";
+	}*/
+	
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
